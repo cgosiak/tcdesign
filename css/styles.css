@@ -134,6 +134,18 @@ h2 {
     margin-bottom: 2%;
 }
 
+/*Add Floating Bi Div*/
+.bi-div-float {
+    float: left;
+    width: 50%;
+    margin-bottom: 2%;
+}
+
+.contact-info {
+    margin-top: 5%;
+    font-size: 30px;
+}
+
 
 .demo-drawer-header {
   box-sizing: border-box;
