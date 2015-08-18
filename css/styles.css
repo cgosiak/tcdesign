@@ -29,6 +29,7 @@ h2 {
     margin: auto;
     margin-top: 2%;
     margin-bottom: 2%;
+    padding-left: 2%;
 }
 .demo-avatar {
   width: 48px;
@@ -65,19 +66,75 @@ h2 {
       -ms-flex-align: center;
           align-items: center;
 }
-.demo-card-wide.mdl-card {
+
+/*Blue Card Views*/
+.demo-card-wide-blue.mdl-card {
     width: 90%;
     margin: auto;
     margin-top: 2%;
   }
-  .demo-card-wide > .mdl-card__title {
+  .demo-card-wide-blue > .mdl-card__title {
     color: #fff;
     height: 100px;
     background: #1565C0 center / cover;
   }
-  .demo-card-wide > .mdl-card__menu {
+  .demo-card-wide-blue > .mdl-card__menu {
     color: #fff;
   }
+
+/*Orange Page Card Views*/
+.demo-card-wide-orange.mdl-card {
+    width: 90%;
+    margin: auto;
+    margin-top: 2%;
+  }
+  .demo-card-wide-orange > .mdl-card__title {
+    color: #fff;
+    height: 100px;
+    background: #FFB74D center / cover;
+  }
+  .demo-card-wide-orange > .mdl-card__menu {
+    color: #fff;
+  }
+
+/*Red Card Views*/
+.demo-card-wide-red.mdl-card {
+    width: 90%;
+    margin: auto;
+    margin-top: 2%;
+  }
+  .demo-card-wide-red > .mdl-card__title {
+    color: #fff;
+    height: 100px;
+    background: #FF8A65 center / cover;
+  }
+  .demo-card-wide-red > .mdl-card__menu {
+    color: #fff;
+  }
+
+/*Green Card Views*/
+.demo-card-wide-green.mdl-card {
+    width: 90%;
+    margin: auto;
+    margin-top: 2%;
+  }
+  .demo-card-wide-green > .mdl-card__title {
+    color: #fff;
+    height: 100px;
+    background: #81C784 center / cover;
+  }
+  .demo-card-wide-green > .mdl-card__menu {
+    color: #fff;
+  }
+
+/*Add Floating Tri Div*/
+.tri-div-float {
+    float: left;
+    width: 33%;
+    margin-bottom: 2%;
+}
+
+
 .demo-drawer-header {
   box-sizing: border-box;
   display: -webkit-box;
