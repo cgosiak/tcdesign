@@ -24,12 +24,43 @@ h1 {
 h2 {
     font-size: 30px;
 }
+.titleElement {
+    text-align: center;
+    margin: auto;
+}
+.spacerShow {
+    visibility: visible;
+}
+/*Add Floating Bi Div*/
+.bi-div-float {
+    float: left;
+    width: 50%;
+    margin-bottom: 2%;
+}
+@media screen and (max-width: 1000px) {
+  .spacerShow {
+    visibility: hidden;
+    clear: both;
+    display: none;
+  }
+  .bi-div-float {
+    width: 100%;
+    margin-bottom: 2%;
+}
+}
+
 .myCardDesign {
     font-size: 20px;
     margin: auto;
     margin-top: 2%;
     margin-bottom: 2%;
     padding-left: 2%;
+}
+.innerCardDetails {
+    font-size: 20px;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    padding-left: 2%; 
 }
 .demo-avatar {
   width: 48px;
@@ -72,6 +103,7 @@ h2 {
     width: 90%;
     margin: auto;
     margin-top: 2%;
+    margin-bottom: 2%;
   }
   .demo-card-wide-blue > .mdl-card__title {
     color: #fff;
@@ -87,6 +119,7 @@ h2 {
     width: 90%;
     margin: auto;
     margin-top: 2%;
+    margin-bottom: 2%;
   }
   .demo-card-wide-orange > .mdl-card__title {
     color: #fff;
@@ -102,6 +135,7 @@ h2 {
     width: 90%;
     margin: auto;
     margin-top: 2%;
+    margin-bottom: 2%;
   }
   .demo-card-wide-red > .mdl-card__title {
     color: #fff;
@@ -117,6 +151,7 @@ h2 {
     width: 90%;
     margin: auto;
     margin-top: 2%;
+    margin-bottom: 2%;
   }
   .demo-card-wide-green > .mdl-card__title {
     color: #fff;
@@ -134,16 +169,9 @@ h2 {
     margin-bottom: 2%;
 }
 
-/*Add Floating Bi Div*/
-.bi-div-float {
-    float: left;
-    width: 50%;
-    margin-bottom: 2%;
-}
-
 .contact-info {
     margin-top: 5%;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 

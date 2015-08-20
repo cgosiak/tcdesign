@@ -1,0 +1,14 @@
+[
+  {
+    "name": "App Development",
+    "id": 1
+  },
+  {
+    "name": "Web Development",
+    "id": 2
+  },
+  {
+    "name": "Software Development",
+    "id": 3
+  }
+]
