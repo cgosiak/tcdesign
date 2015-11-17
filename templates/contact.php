@@ -1,0 +1,46 @@
+<!doctype html>
+<!--
+  Material Design Lite
+  Copyright 2015 Google Inc. All rights reserved.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      https://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License
+-->
+
+
+<div class="mdl-card mdl-shadow--2dp demo-card-wide-green">
+    <div class="mdl-card__title">
+        <h2 class="mdl-card__title-text">Contact Us</h2>
+    </div>
+    <div>
+        <div class="bi-div-float">
+            <div class="mdl-card mdl-shadow--2dp demo-card-wide-orange">
+                <div class="mdl-card__title">
+                    <h2 class="mdl-card__title-text">Email</h2>
+                </div>
+                <div class="myCardDesign">
+                    <a href="mailto:cgosiak24@gmail.com?Subject=TCDesignMN" target="_top" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent contact-info">cgosiak24@gmail.com</a>
+                </div>
+            </div>
+        </div>
+        <div class="bi-div-float">
+            <div class="mdl-card mdl-shadow--2dp demo-card-wide-orange">
+                <div class="mdl-card__title">
+                    <h2 class="mdl-card__title-text">Call</h2>
+                </div>
+                <div class="myCardDesign">
+                    <a href="tel:+13202327455" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent contact-info">(320)232-7455</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
